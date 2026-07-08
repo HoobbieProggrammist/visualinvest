@@ -1,0 +1,154 @@
+:host {
+  display: block;
+}
+
+.mobile-topbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #fff;
+  height: 60px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eee;
+  overflow: visible;
+}
+
+.mobile-topbar .mobile-logo {
+  position: static;
+  z-index: 2;
+}
+
+.mobile-topbar .mobile-logo img {
+  max-height: 160px;
+  max-width: 160px;
+  width: auto;
+  display: block;
+}
+
+.mobile-topnav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  gap: 4px;
+  overflow: visible;
+}
+
+.mobile-topnav a {
+  flex: 0 0 auto;
+  color: #2c3e50;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 12px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.mobile-topnav a.active {
+  background: #3498db;
+  color: #fff;
+}
+
+.mobile-page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 10px 16px 40px;
+}
+
+.mobile-hero {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.mobile-hero h1 {
+  font-size: 26px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 15px;
+}
+
+.mobile-hero p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.mobile-section {
+  padding: 24px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-section h2 {
+  font-size: 20px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 18px;
+}
+
+.mobile-section p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.mobile-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.mobile-card h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 0 0 10px;
+  color: #2c3e50;
+}
+
+.mobile-card p {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 24px 0 16px;
+}
+
+.mobile-nav a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  background: #3498db;
+  color: #fff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.mobile-nav a:active {
+  background: #2980b9;
+}
+
+.mobile-switch {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #3498db;
+  font-size: 14px;
+  cursor: pointer;
+}
